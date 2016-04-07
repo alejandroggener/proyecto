@@ -1,0 +1,9 @@
+#N canvas 0 0 450 300 24;
+#X obj 196 207 readsf~;
+#X msg 195 136 open Genesis_Clean_Guitar_Amp.aif \, 1;
+#X obj 192 294 outlet~;
+#X obj 193 63 inlet;
+#X connect 0 0 2 0;
+#X connect 0 1 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
